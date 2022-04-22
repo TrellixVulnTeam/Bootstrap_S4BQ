@@ -415,6 +415,425 @@
     object-fit: cover;
 }
 
+/* MENU -------------------------------------------------------- */
+
+.menu__container {
+    display: flex;
+    margin: 100px 80px 100px 80px;
+    border: 3px solid black;
+    height: 350px;
+    justify-content: space-between;
+    
+}
+
+.menu__text {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu__text h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.menu__text p {
+    font-family: fantasy;
+    font-family: fangsong;
+    font-size: 30px;
+}
+
+
+.menu__descarga {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 25px;
+    position: relative;
+    height: 300px;
+    padding: 20px;
+    justify-content: space-around;
+    object-fit: cover;
+}
+
+.menu__descarga p {
+    font-size: 20px;
+}
+
+.menu__descarga button {
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.papas__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.papas__img{
+    width: 200px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.papas__huevo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+.papas__huevo select{
+    width: 30px;
+    margin-top: 10px;
+}
+
+.papas__crema{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0px;
+    align-items: center;
+}
+
+.papas__crema select{
+    width: 30px;
+    margin-top: 10px;
+}
+
+.papas__barbacoa{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0px;
+    align-items: center;
+}
+
+.papas__barbacoa select{
+    width: 30px;
+    margin-top: 10px;
+}
+
+
+
+.ensaladas__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.ensaladas__container img{
+    width: 200px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.ensaladas__cesar{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+.ensaladas__cesar select{
+    width: 30px;
+    margin-top: 10px;
+}
+
+.ensaladas__coles{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0px;
+    align-items: center;
+}
+
+.ensaladas__coles select{
+    width: 30px;
+    margin-top: 10px;
+}
+
+.ensaladas__ligera{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0px;
+    align-items: center;
+}
+
+.ensaladas__ligera select{
+    width: 30px;
+    margin-top: 10px;
+}
+
+.papas__ensaladas{
+    display: flex;
+}
+
+.titulos__papasensaladas{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.cervezas__title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.cervezas__container {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    margin: 0px 80px 0px 80px;
+    padding: 50px;
+}
+
+.cervezas__container img {
+    width: 350px;
+}
+
+.cervezas__text {
+    margin-left: 50px;
+    display: flex;
+    padding: 20px;
+}
+
+.cervezas__cajas h3 {
+    padding-bottom: 10px; 
+}
+
+.cervezas__cajas p {
+    padding-bottom: 25px;
+}
+
+.cervezas__consumo {
+    margin-left: 300px;
+    
+}
+
+/* VEGGIE ------------------------------------------ */
+
+.veggie__title {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+
+}
+
+.veggie__burger {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    justify-content: center;
+    margin: auto;
+}
+
+.veggie__veggie {
+    width: 330px;
+    height: 440px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0,2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.veggie__burger .veggie__veggie:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0,2);
+}
+
+.veggie__burger .veggie__veggie img {
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.veggie__burger .veggie__veggie h3 {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.veggie__burger .veggie__veggie p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.veggie__burger .veggie__veggie select {
+    margin-top: 15px;
+    position: absolute;
+}
+
+.celiacos__container {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    margin: 0px 80px 0px 80px;
+    padding: 30px;
+    margin-top: 250px;
+}
+
+.celiacos__text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.celiacos__text p {
+    font-size: 25px;
+    margin-top: 25px;
+    width: 400px;
+}
+
+.celiacos__text h2 {
+    font-size: 30px;
+    font-family: fantasy;
+    
+}
+
+.celiacos__burger {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+
+}
+
+.celiacos__burger img {
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+    
+}
+
+.celiacos__burger p {
+    display: flex;
+    font-size: 16px;
+    font-weight: 200;
+    width: 500px;
+    margin-top: 15px;
+    
+    
+}
+
+.celiacos__burger select {
+    display: flex;
+    width: 40px;
+    flex: flex-start;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+/*PAGE NOSOTROS -----------------------------------*/
+
+.nosotros__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.nosotros__container img {
+    width: 400px;
+    height: 400px;
+    margin-right: 30px;
+    margin-left: 0px;
+    
+}
+
+.nosotros__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.nosotros__text h2 {
+    display: flex;
+    font-size: 40px;
+    padding-right: 50px;
+    
+}
+
+.nosotros__text p {
+    font-size: 20px;
+    
+
+}
+
+.nosotros__title {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.nosotros__locales {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    justify-content: center;
+    margin: auto;
+}
+
+.nosotros__locales .nosotros__barrio {
+    width: 330px;
+    height: 440px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0,2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;  
+}
+
+.nosotros__locales .nosotros__barrio:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0,2);
+}
+
+.nosotros__locales .nosotros__barrio iframe {
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.nosotros__locales .nosotros__barrio h3 {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nosotros__locales .nosotros__barrio p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nosotros__trabajo {
+    margin-top: 200px;
+}
+
 /*RESPONSIVE 1090 GRID LAYOUT -----------------------------------*/
 @media screen and ( max-width : 1090px ) {
     .grid__layout {
@@ -433,9 +852,8 @@
     .c12 {
         grid-column: 1/1;
     }
+}    
 
-
-}
 
 /* RESPONSIVE 716 GRID LAYOUT ---------------------- */
 
@@ -459,10 +877,19 @@
 
 }
 
+/* RESPONSIVE 950PX ---------------------------- */
 
+@media screen and ( max-width : 1109px ) {
 
-
-
+    .nosotros__trabajo {
+        margin-top: 550px;
+    }
+    
+    .nosotros__text {
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+}
 
 /* RESPONSIVE 800PX ---------------------------- */
 
@@ -562,6 +989,18 @@
     }
 }
 
+@media screen and ( max-width : 739px ) {
+
+    .nosotros__trabajo {
+        margin-top: 1050px;
+    }
+    
+    .nosotros__text {
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+}
+
 @media only screen and ( max-width : 672px ) {
     .nav__bars {
         display: inline-block;
@@ -586,6 +1025,12 @@
 }
 
 @media only screen and ( max-width : 468px ) {
+    .header__img {
+        object-fit: cover;
+        width: 100vw;
+        height: 320px;
+    }
+
     .footer__container {
         height: 320px;
     }
@@ -660,4 +1105,3 @@
         height: 280px;
     }
 }
-
