@@ -16,6 +16,43 @@
             <img class="header__img" src="./assets/img/header-footer/papas-cheddar.jpg" alt="imagen de fondo">
         </div>
         -->
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="container">
+                    <a class="navbar-brand" href="../index.html">
+                      <img src="../assets/logo/icono-burger.png" alt="" width="30" height="24">
+                    </a>
+                </div>
+              <a class="navbar-brand" href="../index.html">HOME</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="burger.html">HAMBURGUESAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="veggie.html">VEGGIE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <div class="nav__redes">
+                    <a href="https://www.facebook.com" target="blank"> <img src="../assets/logo/facebook-icon.png" alt="Icono de facebook"></a>
+                    <a href="https://www.instagram.com" target="blank"> <img src="../assets/logo/instagram-icon.png" alt="Icono de Instagram"></a>
+                    </div>
+                </span>
+            </div>
+            </div>
+          </nav>
+
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" height="900px">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -43,7 +80,7 @@
             </button>
         </div>
 
-        <!-- -------------Zona Navegable----------------->
+        <!-- -------------Zona Navegable---------------
         
         <nav class="nav__container">
             <img class="nav__icon" src="../assets/logo/icono-burger.png" alt="Logo de la Hamburguesería">
@@ -60,7 +97,7 @@
                 <a href="https://www.facebook.com" target="blank"> <img src="../assets/logo/facebook-icon.png" alt="Icono de facebook"></a>
                 <a href="https://www.instagram.com" target="blank"> <img src="../assets/logo/instagram-icon.png" alt="Icono de Instagram"></a>
             </div>
-            </nav>
+            </nav>  -->
         
     </header>
     
@@ -70,8 +107,9 @@
                 <h2>Las mejores hamburguesas del país, con los Mejores Vegetales</h2>
             </div>
 
-            <section class="veggie__burger">
-                <div class="veggie__veggie">
+            <section class="container veggie__burger">
+                <div class="row">
+                <div class="col-sm-12 col-md-2 col-lg-3 veggie__veggie">
                     <img src="../assets/img/hamburguesas/vegetarianas/2 huevos-tomate-lechuga.jpg" alt="Hamburguesa de Huevo con Tomate y Lechuga">
                     <h3>2 huevos, tomate y lechuga</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fuga id accusantium debitis ex dolorem earum molestias voluptates veritatis nostrum maiores, soluta quos doloremque aperiam eligendi. Illum aperiam doloribus dolores.</p>
@@ -90,7 +128,7 @@
                     </select>
                 </div>
 
-                <div class="veggie__veggie">
+                <div class="col-sm-12 col-md-2 col-lg-3 lentejas veggie__veggie">
                     <img src="../assets/img/hamburguesas/vegetarianas/lentejas-y-vegetales.jpg" alt="Hamburguesa Lentejas y Vegetales">
                     <h3>Lentejas y Vegetales</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, officiis optio quod tempore sapiente minima quibusdam possimus dolore deleniti laudantium, expedita cupiditate voluptas harum beatae obcaecati quae quia sint aspernatur.</p>
@@ -109,7 +147,7 @@
                     </select>
                 </div>
                 
-                <div class="veggie__veggie"> 
+                <div class="col-sm-12 col-md-2 col-lg-3 quinoa veggie__veggie"> 
                     <img src="../assets/img/hamburguesas/vegetarianas/quinoa-y-semillas.jpg" alt="Hamburguesa Quinoa y Semillas">
                     <h3>Quinoa y Semillas</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, enim eos. Voluptatibus exercitationem ea laboriosam unde maxime tempora, quae, dolores neque labore deleniti quis nulla voluptatem. Accusantium hic repellendus qui?</p>
@@ -127,14 +165,16 @@
                     <option value="10">10</option>
                     </select>
                 </div>
+            </div>
             </section>
 
-            <section class="celiacos__container">
-                <div class="celiacos__text">
+            <section class="container celiacos__container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 celiacos__text">
                     <h2>Especial Celíacos</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum at voluptate sapiente iste eligendi eos expedita facilis quo maiores officiis perferendis esse impedit nulla aperiam magnam, dolorum quas quasi ratione?
                 </div>
-                <div class="celiacos__burger">
+                <div class="col-sm-12 col-md-6 col-lg-6 celiacos__burger">
                     <img src="..//assets/img/hamburguesas/vegetarianas/sintacc.jpg" alt="Hamburguesa Celíaca"></a>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias facilis id consequuntur repellendus sunt expedita voluptatibus, provident saepe distinctio placeat minima, quam quas odit assumenda qui ratione maiores, error aliquid.</p>
                     <select name="unidades" id="">
@@ -151,6 +191,7 @@
                     <option value="10">10</option>
                     </select>
                 </div>
+            </div>
             </section>
         </main>
 
