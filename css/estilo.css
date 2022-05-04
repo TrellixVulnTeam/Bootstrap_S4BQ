@@ -471,13 +471,23 @@
 
 .papas__container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: left;
     margin-left: 30px;
+    width: 80%;
+}
+.papas__section {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+.papas__container h2 {
+    display: flex;
+    justify-content: center;
 }
 
 .papas__img{
-    width: 200px;
+    width: 170px;
     height: 450px;
     object-fit: cover;
 }
@@ -522,17 +532,24 @@
 
 .ensaladas__container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: left;
     margin-left: 30px;
 }
-
+.ensaladas__section {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
 .ensaladas__container img{
-    width: 200px;
+    width: 170px;
     height: 450px;
     object-fit: cover;
 }
-
+.ensaladas__container h2 {
+    display: flex;
+    justify-content: center;
+}
 .ensaladas__cesar{
     display: flex;
     flex-direction: column;
@@ -904,6 +921,105 @@
         margin-left: 40px;
         margin-top: 15px;
     }
+    .menu__container {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        height:100%;
+        margin-left: 60px;
+    }
+    .menu__text {
+        width: 200px;
+        
+    }
+    .menu__text p {
+        font-size: 25px;
+        width: 380px;
+        text-align: justify;
+        margin-top: 20px;
+    }
+    .menu__descarga {
+        height: 420px;
+        width: 400px;
+        text-align: justify;
+        margin-top: 50px;
+    }
+    .menu__descarga p {
+        height: 300px;
+        font-size: 22px;
+        width: 380px;
+    }
+    .papas__section {
+        width: 200px;
+        margin-left: 90px;
+    }
+    .papas__container h2 {
+        width: 200px;
+        margin-left: 86px;
+    }
+    .papas__img {
+        width: 150px;
+    }
+    .papas__ensaladas{
+        display: flex;
+        justify-content: space-around;
+        width: 850px;
+        margin-left: 40px;
+    }
+    .ensaladas__section{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .ensaladas__container img {
+        width: 150px;
+        
+    }
+    .container__navbar {
+       width: 100%;
+    }
+    .cervezas__container {
+        display: flex;
+        justify-content: space-around;
+        width: 99%;
+        margin-left: 10px;
+        height: 70%;
+    }
+    .cervezas__container img {
+        object-fit: cover;
+        width: 40%;
+        height:80%;
+        
+    }
+    .cervezas__text {
+        width: 850px;
+        margin-left: 90px;
+    }
+    .cervezas__title {
+        display: flex;
+        justify-content: center;
+        width: 280px;
+        margin-left: 50px;
+    }
+    .cervezas__consumo {
+        width: 500px;
+        height: 40px;
+        margin-top: 40px;
+        text-align: center;
+        margin-left: 300px;
+        font-size: 20px;
+    }
+    .footer__text {
+        font-size: 50px;
+        margin-left:20px;
+    }
+    .footer__button {
+        font-size: 12px;
+        height: 40px;
+        margin-left: 130px;
+}
+.footer__redes {
+    margin-bottom: 20px;
+}
 }
 
 /* RESPONSIVE 800PX ---------------------------- */
@@ -1002,6 +1118,90 @@
         height: 50px;
         font-size: 12px;
     }
+    .menu__container {
+        width: 82%;
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin-left: 60px;
+    }
+    .menu__text {
+        width: 500px;
+    }
+    .menu__text p {
+        font-size: 20px;
+        width: 450px;
+        text-align: justify;
+    }
+    .menu__descarga {
+        height: 420px;
+        width: 380px;
+        text-align: justify;
+    }
+    .menu__descarga p {
+        height: 300px;
+        font-size: 22px;
+        width: 460px;
+    }
+    .papas__section {
+        width: 500px;
+        margin-left: 40px;
+    }
+    .papas__img {
+        width: 200px;
+    }
+    .papas__ensaladas{
+        display: flex;
+        flex-direction: column;
+    }
+    .ensaladas__section{
+        width: 500px;
+        margin-left: 40px;
+    }
+    .ensaladas__container img {
+        width: 200px;
+        
+    }
+    .container__navbar {
+       width: 100%;
+    }
+    .cervezas__container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .cervezas__container img {
+        object-fit: cover;
+        width: 100%;
+        
+    }
+    .cervezas__text {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 90px;
+    }
+    .cervezas__title {
+        display: flex;
+        justify-content: center;
+        width: 280px;
+        margin-left: 100px;
+    }
+    .cervezas__consumo {
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 160px;
+    }
+    .footer__text {
+        font-size: 25px;
+        margin-left:8px;
+    }
+    .footer__button {
+        font-size: 10px;
+        height: 30px;
 }
 
 @media screen and ( max-width : 739px ) {
@@ -1013,6 +1213,91 @@
     .nosotros__text {
         margin-left: 40px;
         margin-top: 15px;
+    }
+    .menu__container {
+        width: 82%;
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin-left: 60px;
+    }
+    .menu__text {
+        width: 500px;
+    }
+    .menu__text p {
+        font-size: 20px;
+        width: 450px;
+        text-align: justify;
+    }
+    .menu__descarga {
+        height: 420px;
+        width: 380px;
+        text-align: justify;
+    }
+    .menu__descarga p {
+        height: 300px;
+        font-size: 22px;
+        width: 460px;
+    }
+    .papas__section {
+        width: 500px;
+        margin-left: 40px;
+    }
+    .papas__img {
+        width: 200px;
+    }
+    .papas__ensaladas{
+        display: flex;
+        flex-direction: column;
+    }
+    .ensaladas__section{
+        width: 500px;
+        margin-left: 40px;
+    }
+    .ensaladas__container img {
+        width: 200px;
+        
+    }
+    .container__navbar {
+       width: 100%;
+    }
+    .cervezas__container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .cervezas__container img {
+        object-fit: cover;
+        width: 100%;
+        
+    }
+    .cervezas__text {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 90px;
+    }
+    .cervezas__title {
+        display: flex;
+        justify-content: center;
+        width: 280px;
+        margin-left: 100px;
+    }
+    .cervezas__consumo {
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 180px;
+    }
+    .footer__text {
+        font-size: 25px;
+        margin-left:8px;
+    }
+    .footer__button {
+        font-size: 10px;
+        height: 30px;
     }
 }
 
@@ -1052,20 +1337,232 @@
     .nav__redes {
         padding: 30px;
     }
+
+    .celiacos__text {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        align-items: center;
+    }
+
+    .celiacos__text p {
+        font-size: 25px;
+        margin-top: 25px;
+        width: 95%;
+        display: flex;
+        text-align: justify;
+    }
+    .menu__container {
+        width: 82%;
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin-left: 60px;
+    }
+    .menu__text {
+        width: 500px;
+    }
+    .menu__text p {
+        font-size: 20px;
+        width: 450px;
+        text-align: justify;
+    }
+    .menu__descarga {
+        height: 420px;
+        width: 380px;
+        text-align: justify;
+    }
+    .menu__descarga p {
+        height: 300px;
+        font-size: 22px;
+        width: 460px;
+    }
+    .papas__section {
+        width: 500px;
+        margin-left: 40px;
+    }
+    .papas__img {
+        width: 200px;
+    }
+    .papas__ensaladas{
+        display: flex;
+        flex-direction: column;
+    }
+    .ensaladas__section{
+        width: 500px;
+        margin-left: 40px;
+    }
+    .ensaladas__container img {
+        width: 200px;
+        
+    }
+    .container__navbar {
+       width: 100%;
+    }
+    .cervezas__container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .cervezas__container img {
+        object-fit: cover;
+        width: 100%;
+        
+    }
+    .cervezas__text {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 90px;
+    }
+    .cervezas__title {
+        display: flex;
+        justify-content: center;
+        width: 280px;
+        margin-left: 100px;
+    }
+    .cervezas__consumo {
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 160px;
+    }
+    .footer__text {
+        font-size: 25px;
+        margin-left:8px;
+    }
+    .footer__button {
+        font-size: 10px;
+        height: 30px;
+    }
 }
 
+
+
+
 @media only screen and ( max-width : 541px ) {
+    
     .celiacos__burger img {
-        width: 400px;
+        width: 85%;
+        margin-left: -45px;
     }
 
     .celiacos__burger p {
+        width: 360px;
+        position: relative;
+        bottom: 40px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .celiacos__burger select {
+        margin-bottom: 40px;
+    }
+
+    .celiacos__text {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        align-items: center;
+}
+
+    .celiacos__text p {
+        font-size: 27px;
+        margin-top: 25px;
+        width: 95%;
+        display: flex;
+        text-align: justify;
+    }
+    .menu__container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin-left: 10px;
+    }
+    .menu__text {
         width: 400px;
+    }
+    .menu__text p {
+        font-size: 20px;
+        width: 380px;
+        text-align: justify;
+    }
+    .menu__descarga {
+        height: 380px;
+        width: 380px;
+        text-align: justify;
+    }
+    .menu__descarga p {
+        height: 300px;
+        font-size: 22px;
+    }
+    .papas__section {
+        width: 300px;
+        margin-left: 60px;
+    }
+    .papas__img {
+        width: 140px;
+    }
+    .papas__ensaladas{
+        display: flex;
+        flex-direction: column;
+    }
+    .ensaladas__section{
+        width: 300px;
+        margin-left: 60px;
+    }
+    .ensaladas__container img {
+        width: 140px;
+        
+    }
+    .container__navbar {
+       width: 459x;
+    }
+    .cervezas__container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .cervezas__container img {
+        object-fit: cover;
+        width: 100%;
+        
+    }
+    .cervezas__text {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 90px;
+    }
+    .cervezas__title {
+        display: flex;
+        justify-content: center;
+        width: 280px;
+        margin-left: 100px;
+    }
+    .cervezas__consumo {
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 120px;
+    }
+    .footer__text {
+        font-size: 25px;
+        margin-left:8px;
+    }
+    .footer__button {
+        font-size: 10px;
+        height: 30px;
     }
 }
 
 
-@media only screen and ( max-width : 468px ) {
+
+@media screen and ( max-width: 468px ) {
     .header__img {
         object-fit: cover;
         width: 100vw;
@@ -1107,6 +1604,100 @@
         width: 450px;
     } 
 
+    .celiacos__burger img {
+        width: 85%;
+        margin-left: -45px;
+    }
+
+    .celiacos__text {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        align-items: center;
+}
+
+    .celiacos__text p {
+        font-size: 24px;
+        margin-top: 25px;
+        width: 95%;
+        display: flex;
+        text-align: justify;
+}
+.menu__container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    margin-left: 10px;
+}
+.menu__text {
+    width: 160px;
+}
+.menu__text p {
+    font-size: 20px;
+    width: 250px;
+}
+.menu__descarga {
+    height: 350px;
+}
+.papas__section {
+    width: 200px;
+    margin-left: 60px;
+}
+.papas__img {
+    width: 100px;
+}
+.papas__ensaladas{
+    display: flex;
+    flex-direction: column;
+}
+.ensaladas__section{
+    width: 200px;
+    margin-left: 80px;
+}
+.ensaladas__container img {
+    width: 100px;
+}
+.container__navbar {
+   width: 459x;
+}
+.cervezas__container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10px;
+}
+.cervezas__container img {
+    object-fit: cover;
+    width: 100%;
+    
+}
+.cervezas__text {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    margin-left: 10px;
+}
+.cervezas__title {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+}
+.cervezas__consumo {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 40px;
+}
+.footer__text {
+    font-size: 25px;
+    margin-left:8px;
+}
+.footer__button {
+    font-size: 10px;
+    height: 30px;
+}
 }
 
 @media only screen and ( max-width : 390px ) {
@@ -1154,4 +1745,100 @@
     .celiacos__burger {
         width: 370px;
     } 
+
+    .celiacos__burger img {
+        width: 85%;
+        margin-left: -45px;
+    }
+
+    .celiacos__text {
+            display: flex;
+            flex-direction: column;
+            width: 96%;
+            align-items: center;
+    }
+
+    .celiacos__text p {
+            font-size: 20px;
+            margin-top: 25px;
+            width: 95%;
+            display: flex;
+            text-align: justify;
+    }
+    .menu__container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin-left: 10px;
+    }
+    .menu__text {
+        width: 160px;
+    }
+    .menu__text p {
+        font-size: 20px;
+        width: 250px;
+    }
+    .menu__descarga {
+        height: 350px;
+    }
+    .papas__section {
+        width: 200px;
+        margin-left: 40px;
+    }
+    .papas__img {
+        width: 100px;
+    }
+    .papas__ensaladas{
+        display: flex;
+        flex-direction: column;
+    }
+    .ensaladas__section{
+        width: 200px;
+        margin-left: 40px;
+    }
+    .ensaladas__container img {
+        width: 100px;
+    }
+    .container__navbar {
+       width: 380px;
+    }
+    .cervezas__container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .cervezas__container img {
+        object-fit: cover;
+        width: 100%;
+        
+    }
+    .cervezas__text {
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        margin-left: 10px;
+    }
+    .cervezas__title {
+        display: flex;
+        justify-content: center;
+        width: 180px;
+    }
+    .cervezas__consumo {
+        width: 300px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer__text {
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    .footer__button {
+        font-size: 10px;
+        height: 30px;
+    }
+}
 }
