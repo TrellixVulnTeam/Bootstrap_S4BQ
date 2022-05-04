@@ -960,7 +960,7 @@
         margin-left: 90px;
     }
     .papas__container h2 {
-        width: 200px;
+        width: 165px;
         margin-left: 86px;
     }
     .papas__img {
@@ -1360,7 +1360,7 @@
         text-align: justify;
     }
     .menu__container {
-        width: 82%;
+        width: 75%;
         display: flex;
         flex-direction: column;
         height:100%;
@@ -1384,23 +1384,44 @@
         font-size: 22px;
         width: 460px;
     }
+    .papas__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 5px;
+        width: 80%;
+    }
+    .papas__container h2 /*{
+        margin-left: 183px;
+    } */
     .papas__section {
         width: 500px;
         margin-left: 40px;
     }
     .papas__img {
-        width: 200px;
+        width: 150px;
     }
     .papas__ensaladas{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .ensaladas__section{
         width: 500px;
         margin-left: 40px;
     }
+    .ensaladas__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 5px;
+        width: 80%;
+    }
+    .ensaladas__container h2 {
+        margin-top: 60px;
+    }
     .ensaladas__container img {
-        width: 200px;
+        width: 150px;
         
     }
     .container__navbar {
@@ -1486,7 +1507,7 @@
         display: flex;
         flex-direction: column;
         height:100%;
-        margin-left: 10px;
+        margin-left: 50px;
     }
     .menu__text {
         width: 400px;
@@ -1503,8 +1524,11 @@
     }
     .menu__descarga p {
         height: 300px;
-        font-size: 22px;
+        font-size: 20px;
+        width: 80%;
+        margin-top: -20px;
     }
+
     .papas__section {
         width: 300px;
         margin-left: 60px;
@@ -1519,6 +1543,10 @@
     .ensaladas__section{
         width: 300px;
         margin-left: 60px;
+    }
+    .ensaladas__container h2 {
+        width: 200px;
+        margin-left: 100px;
     }
     .ensaladas__container img {
         width: 140px;
@@ -1788,6 +1816,15 @@
     }
     .menu__descarga {
         height: 350px;
+    }
+    .menu__descarga button {
+        width: 120px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 75px;
+    }
+    .papas__container h2 {
+        width: 200px;
     }
     .papas__section {
         width: 200px;
