@@ -205,11 +205,13 @@
     grid-column-gap: 15px;
     grid-row-gap: 10px;
     margin: 50PX auto;
+    justify-content: center;
 
 }
 
 .c1 {
     grid-column: 1/4;
+    margin-left: 60px;
 }
 
 
@@ -283,6 +285,8 @@
 
 .c5 {
     grid-column: 1/4;
+    margin-left: 60px;
+    margin-top: 50px;
 }
 
 .c6 {
@@ -350,6 +354,8 @@
 
 .c9 {
     grid-column: 1/4;
+    margin-left: 60px;
+    margin-top: 50px;
 }
 
 .c10 {
@@ -847,7 +853,7 @@
 }
 
 /*RESPONSIVE 1090 GRID LAYOUT -----------------------------------*/
-@media screen and ( max-width : 1090px ) {
+@media screen and ( max-width : 1010px ) {
     .grid__layout {
         display: grid;
         width: 100%;
@@ -975,7 +981,7 @@
         
     }
     .container__navbar {
-       width: 100%;
+        width: 100%;
     }
     .cervezas__container {
         display: flex;
